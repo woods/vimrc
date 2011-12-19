@@ -19,4 +19,5 @@ set smartcase   " ... unless they contain at least one capital letter
 
 "" Plugins
 call pathogen#infect()    " Easy plugin management
+call pathogen#helptags()  " Update the help tags for each plugin
 
